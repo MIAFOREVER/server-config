@@ -1,0 +1,7 @@
+type: s
+shadowsocks:
+        address: 127.0.0.1:9950
+manager:
+        address: 0.0.0.0:10240
+        password: 'G8le9pns'
+db: 'db.sqlite'
