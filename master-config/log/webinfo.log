@@ -1,0 +1,37 @@
+/usr/local/lib/node_modules/shadowsocks-manager/
+[32m[2019-05-07T03:26:21.996] [INFO] system - [39mSystem start[1612].
+/usr/local/lib/node_modules/shadowsocks-manager/
+[32m[2019-05-07T03:26:22.491] [INFO] system - [39mSystem start[1618].
+[32m[2019-05-07T03:26:22.492] [INFO] system - [39mWorker [1618] started
+[32m[2019-05-07T03:26:22.973] [INFO] system - [39mConfig file path:  /home/g15686357310a/shadowsocks/webconfig.yaml
+{ message: '生成请求签名时错误',
+  info: Error: PEM_read_bio_PrivateKey failed
+    at Sign.sign (crypto.js:331:26)
+    at Object.getSign (/usr/local/lib/node_modules/shadowsocks-manager/node_modules/alipay-ftof/lib/signHelper.js:56:27)
+    at Promise (/usr/local/lib/node_modules/shadowsocks-manager/node_modules/alipay-ftof/lib/aop.js:67:35)
+    at new Promise (<anonymous>)
+    at Object.execute (/usr/local/lib/node_modules/shadowsocks-manager/node_modules/alipay-ftof/lib/aop.js:49:16)
+    at Promise (/usr/local/lib/node_modules/shadowsocks-manager/node_modules/alipay-ftof/lib/alipay_f2f.js:123:17)
+    at new Promise (<anonymous>)
+    at alipay_f2f.createQRPay (/usr/local/lib/node_modules/shadowsocks-manager/node_modules/alipay-ftof/lib/alipay_f2f.js:72:16)
+    at Object.createOrder (/usr/local/lib/node_modules/shadowsocks-manager/plugins/alipay/index.js:74:35)
+    at <anonymous> }
+[91m[2019-05-07T03:29:04.283] [ERROR] express - [39m[35.185.149.28] [undefined] POST 403 150ms /api/user/order/qrcode
+[91m[2019-05-07T03:35:35.276] [ERROR] system - [39mworker [1618][1] died
+/usr/local/lib/node_modules/shadowsocks-manager/
+[32m[2019-05-07T03:35:35.764] [INFO] system - [39mSystem start[1784].
+[32m[2019-05-07T03:35:35.765] [INFO] system - [39mWorker [1784] started
+[32m[2019-05-07T03:35:35.819] [INFO] system - [39mConfig file path:  /home/g15686357310a/shadowsocks/webconfig.yaml
+{ message: '生成请求签名时错误',
+  info: Error: PEM_read_bio_PrivateKey failed
+    at Sign.sign (crypto.js:331:26)
+    at Object.getSign (/usr/local/lib/node_modules/shadowsocks-manager/node_modules/alipay-ftof/lib/signHelper.js:56:27)
+    at Promise (/usr/local/lib/node_modules/shadowsocks-manager/node_modules/alipay-ftof/lib/aop.js:67:35)
+    at new Promise (<anonymous>)
+    at Object.execute (/usr/local/lib/node_modules/shadowsocks-manager/node_modules/alipay-ftof/lib/aop.js:49:16)
+    at Promise (/usr/local/lib/node_modules/shadowsocks-manager/node_modules/alipay-ftof/lib/alipay_f2f.js:123:17)
+    at new Promise (<anonymous>)
+    at alipay_f2f.createQRPay (/usr/local/lib/node_modules/shadowsocks-manager/node_modules/alipay-ftof/lib/alipay_f2f.js:72:16)
+    at Object.createOrder (/usr/local/lib/node_modules/shadowsocks-manager/plugins/alipay/index.js:74:35)
+    at <anonymous> }
+[91m[2019-05-07T03:35:55.825] [ERROR] express - [39m[35.185.149.28] [undefined] POST 403 29ms /api/user/order/qrcode

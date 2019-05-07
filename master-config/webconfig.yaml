@@ -28,8 +28,8 @@ plugins:
     use: true
     appid: 2019050764393134
     notifyUrl: 'http://35.185.149.28/api/user/alipay/callback'
-    merchantPrivateKey: '~/server-config/master-config/rsa_private_key.pem'
-    alipayPublicKey: '~/server-config/master-config/alipay_public_key.txt'
+    merchantPrivateKey: '/home/g15686357310a/server-config/master-config/rsa_private_key.pem'
+    alipayPublicKey: '/home/g15686357310a/server-config/master-config/alipay_public_key.txt'
     gatewayUrl: 'https://openapi.alipay.com/gateway.do'
 db: 'webgui.sqlite'
 # 从 0.30 开始需要配置 redis
